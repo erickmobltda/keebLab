@@ -1,0 +1,75 @@
+{
+  "name": "Sofle",
+  "description": "6×4+5 keys column-staggered split keyboard with encoder support. Based on Lily58, Corne and Helix keyboards.",
+  "totalKeys": 58,
+  "keysPerSide": 29,
+  "dimensions": {
+    "width": 280,
+    "height": 180,
+    "unit": "mm"
+  },
+  "keys": [
+    {
+      "id": "left_0_0",
+      "row": 0,
+      "col": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "side": "left",
+      "isThumb": false
+    }
+  ],
+  "rotaryPositions": [
+    {
+      "id": "top_left",
+      "x": 40,
+      "y": 25,
+      "side": "left",
+      "description": "Top left rotary encoder (standard position)"
+    },
+    {
+      "id": "top_right",
+      "x": 240,
+      "y": 25,
+      "side": "right",
+      "description": "Top right rotary encoder (standard position)"
+    }
+  ],
+  "tentingHoles": [
+    {
+      "id": "tent_1_left",
+      "x": 25,
+      "y": 140,
+      "side": "left"
+    },
+    {
+      "id": "tent_2_left",
+      "x": 55,
+      "y": 140,
+      "side": "left"
+    },
+    {
+      "id": "tent_1_right",
+      "x": 225,
+      "y": 140,
+      "side": "right"
+    },
+    {
+      "id": "tent_2_right",
+      "x": 255,
+      "y": 140,
+      "side": "right"
+    }
+  ],
+  "features": {
+    "supportsRotary": true,
+    "supportsTenting": true,
+    "supportsOLED": true,
+    "supportsRGB": true,
+    "supportsWireless": true,
+    "maxRotaryEncoders": 2
+  },
+  "notes": "Layout data needs to be completed with all 58 key positions. This is a placeholder structure."
+}

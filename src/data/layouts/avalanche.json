@@ -1,0 +1,77 @@
+{
+  "name": "Avalanche",
+  "description": "Ergonomic split keyboard with 4x6 (or 3x6) column staggered keys, 5 thumb keys, 1 additional pinky key, and 2 additional index finger keys",
+  "totalKeys": 64,
+  "keysPerSide": 32,
+  "dimensions": {
+    "width": 300,
+    "height": 200,
+    "unit": "mm"
+  },
+  "keys": [
+    {
+      "id": "left_0_0",
+      "row": 0,
+      "col": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "side": "left",
+      "isThumb": false,
+      "isPinky": false,
+      "isIndex": false
+    }
+  ],
+  "rotaryPositions": [
+    {
+      "id": "top_left",
+      "x": 50,
+      "y": 30,
+      "side": "left",
+      "description": "Top left rotary encoder"
+    },
+    {
+      "id": "top_right",
+      "x": 250,
+      "y": 30,
+      "side": "right",
+      "description": "Top right rotary encoder"
+    }
+  ],
+  "tentingHoles": [
+    {
+      "id": "tent_1_left",
+      "x": 30,
+      "y": 150,
+      "side": "left"
+    },
+    {
+      "id": "tent_2_left",
+      "x": 70,
+      "y": 150,
+      "side": "left"
+    },
+    {
+      "id": "tent_1_right",
+      "x": 230,
+      "y": 150,
+      "side": "right"
+    },
+    {
+      "id": "tent_2_right",
+      "x": 270,
+      "y": 150,
+      "side": "right"
+    }
+  ],
+  "features": {
+    "supportsRotary": true,
+    "supportsTenting": true,
+    "supportsOLED": true,
+    "supportsRGB": true,
+    "supportsWireless": true,
+    "maxRotaryEncoders": 2
+  },
+  "notes": "Layout data needs to be completed with all 64 key positions. This is a placeholder structure."
+}
