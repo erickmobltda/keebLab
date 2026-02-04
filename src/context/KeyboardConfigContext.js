@@ -16,7 +16,7 @@ export const KeyboardConfigProvider = ({ children }) => {
     base: 'white', // 'white' (only option for now)
     case: 'black', // 'black' or 'white'
     switches: 'green', // 'green' or 'red'
-    keycaps: 'black', // 'black' or 'yellow'
+    keycaps: 'none', // 'black' or 'yellow'
     features: {
       tenting: false,
       rotary: {
@@ -112,7 +112,7 @@ export const KeyboardConfigProvider = ({ children }) => {
       base: 'white',
       case: 'black',
       switches: 'green',
-      keycaps: 'black',
+      keycaps: 'none',
       features: {
         tenting: false,
         rotary: {

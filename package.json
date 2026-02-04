@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Interactive visual configurator for custom mechanical keyboards",
   "private": true,
-  "homepage": "https://erickmob.github.io/keebLab",
+  "homepage": "https://erickmobltda.github.io/keebLab",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
