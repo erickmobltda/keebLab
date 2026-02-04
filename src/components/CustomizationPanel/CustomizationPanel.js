@@ -47,6 +47,12 @@ function CustomizationPanel() {
         <label className="option-label">Switches</label>
         <div className="option-buttons">
           <button
+            className={`option-button ${config.switches === 'none' ? 'active' : ''}`}
+            onClick={() => updateSwitches('none')}
+          >
+            None
+          </button>
+          <button
             className={`option-button ${config.switches === 'green' ? 'active' : ''}`}
             onClick={() => updateSwitches('green')}
           >

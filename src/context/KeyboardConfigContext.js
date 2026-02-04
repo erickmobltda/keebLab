@@ -15,7 +15,7 @@ export const KeyboardConfigProvider = ({ children }) => {
     layout: 'avalanche', // 'avalanche' or 'sofle'
     base: 'white', // 'white' (only option for now)
     case: 'black', // 'black' or 'white'
-    switches: 'green', // 'green' or 'red'
+    switches: 'none', // 'green' or 'red'
     keycaps: 'none', // 'black' or 'yellow'
     features: {
       tenting: false,
@@ -111,7 +111,7 @@ export const KeyboardConfigProvider = ({ children }) => {
       layout: config.layout, // Keep current layout
       base: 'white',
       case: 'black',
-      switches: 'green',
+      switches: 'none',
       keycaps: 'none',
       features: {
         tenting: false,
